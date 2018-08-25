@@ -11,9 +11,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisors/master/_listings/vestorly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Vestorly
-  x-api-slug: vestorly
-  description: vestorly-developers-api
+- name: Vestorly - Get Advisors
+  x-api-slug: advisorsid-get
+  description: Returns a single advisor given their ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png
   humanURL: http://vestorly.com
   baseURL: https://staging.vestorly.com//api/v2
@@ -23,16 +23,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisors/master/_listings/vestorly/advisorsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisors/master/_listings/vestorly/advisorsid-get-openapi.md
-- name: Vestorly
-  x-api-slug: vestorly
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png
-  humanURL: http://vestorly.com
-  baseURL: https://staging.vestorly.com//api/v2
-  tags: Advisors
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/advisors/master/_listings/vestorly/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://versapay.api.gallery.streamdata.io
